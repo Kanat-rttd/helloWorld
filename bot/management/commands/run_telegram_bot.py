@@ -20,7 +20,7 @@ def users(message):
 
 @bot.message_handler(commands=['help'])
 def help(message):
-    bot.send_message(message.chat.id, '/start - Поприветствовать пользователя\n/users - Вывод юзеров из базы данных и их устройства')
+    bot.send_message(message.chat.id, '/start - Поприветствовать пользователя\n/users - Вывод юзеров из базы данных и их устройства\n/add - Добавить пользователя в базу данных\n/help - Вывод всех досутпных команд')
 
 
 @bot.message_handler(commands=['add'])
