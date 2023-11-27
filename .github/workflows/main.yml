@@ -7,7 +7,7 @@ on:
       
 jobs:
   build:
-    runs-on: debian-11
+    runs-on: debian:11
     strategy:
       max-parallel: 4
       matrix:
