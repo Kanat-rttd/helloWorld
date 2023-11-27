@@ -28,4 +28,4 @@ jobs:
           git pull
           python manage.py migrate
           python manage.py collectstatic --noinput
-          sudo supervisorctl restart all
+          supervisorctl restart all
