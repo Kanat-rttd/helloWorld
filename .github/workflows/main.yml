@@ -1,14 +1,13 @@
 name: Deploy
 
-on:
+on: 
   push:
     branches:
-      - main
+    - main
       
 jobs:
   build:
-  
-    runs-on: debian-buster
+    runs-on: debian-11
     strategy:
       max-parallel: 4
       matrix:
