@@ -23,7 +23,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: 22
         script: |
-          cd home/mr_kanat2004/helloWorld
+          cd /home/mr_kanat2004/helloWorld
           source venv/bin/activate
           git pull
           python manage.py migrate
