@@ -8,5 +8,5 @@ class User(models.Model):
     device = models.CharField(max_length=255)
 
     def __str__(self):
-        return f"Name: {self.name}, Entry device: {self.device}"
+        return f"Name: {self.name}, Entry device1: {self.device}"
 

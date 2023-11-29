@@ -20,7 +20,7 @@ class UserModelTest(TestCase):
 
     def test_user_str_method(self):
         # Test the __str__ method of the User model.
-        expected_str = "Name: John Doe, Entry device: Mobile"
+        expected_str = "Name: John Doe, Entry device1: Mobile"
         self.assertEqual(str(self.user), expected_str)
 
     def test_user_deletion(self):
